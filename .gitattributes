@@ -1,0 +1,26 @@
+# Normalize line endings so Windows and macOS students
+# don't produce whole-file diffs on every commit.
+* text=auto
+
+# Web source files are always text.
+*.html   text
+*.css    text
+*.js     text
+*.json   text
+*.svg    text
+*.md     text
+
+# Binary assets — never convert these.
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.ico    binary
+*.webp   binary
+*.woff   binary
+*.woff2  binary
+*.ttf    binary
+*.otf    binary
+*.pdf    binary
+*.mp4    binary
+*.mp3    binary

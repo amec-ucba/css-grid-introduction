@@ -1,0 +1,5 @@
+# Automatically requests the instructor's review on every pull request.
+# Replace the username below before using this repo as a template.
+# The owner must have write access to the repo, or GitHub silently ignores this file.
+
+* @daveberning
