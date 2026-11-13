@@ -14,7 +14,13 @@ Desktop.ini
 $RECYCLE.BIN/
 
 # Editors & IDEs
-.idea/
+# WebStorm: ignore personal settings, but keep the shared class setup
+# (code style, inspections, Git mapping).
+.idea/*
+!.idea/.gitignore
+!.idea/vcs.xml
+!.idea/codeStyles/
+!.idea/inspectionProfiles/
 .vscode/
 *.swp
 *.sublime-workspace

@@ -34,8 +34,8 @@ names and one new section.
    layouts.
 3. **Complete Part 2 on your own** by following the four steps in the
    *Part 2 — On Your Own* section below, or in the
-   [Part 2 PDF](.github/Part-2.pdf).
-4. **Publish and submit** your page as described in the [README](README.md).
+   [Part 2 PDF](Part-2.pdf).
+4. **Publish and submit** your page as described in the [README](../README.md).
 
 ## 🧠 What You Will Learn
 
@@ -72,17 +72,17 @@ finish a step. It is normal to pause, rewind, and rewatch parts of a coding demo
 >
 > - **Getting the starter files:** don't download `grids_start.zip`. Create your own repo
 >   from this template and open it with GitHub Desktop, as described in the
->   [README](README.md#-getting-started).
+>   [Getting Started guide](GETTING_STARTED.md).
 > - **Naming your file:** rename `grid-examples.html` to **`index.html`**, whatever name
 >   the video uses. GitHub Pages only serves `index.html` at your site's root URL; any
 >   other name gives you a 404. Rename the file — don't create a second one.
 > - **Submitting:** don't zip your folder or upload a file. Publish your page to GitHub
 >   Pages and submit a pull request URL in Canvas, as described in the
->   [README](README.md#-submitting-the-assignment).
+>   [Submitting guide](SUBMITTING.md).
 
 ## ✍️ Part 2 — On Your Own
 
-These steps come from the [Part 2 PDF](.github/Part-2.pdf) in Canvas, which shows a
+These steps come from the [Part 2 PDF](Part-2.pdf) in Canvas, which shows a
 screenshot of the section after each step. Open it to check your work as you go.
 
 All four steps apply to the **same** section: the final *3 Columns* section at the bottom
@@ -194,7 +194,7 @@ If something is not working, check these common issues first:
 
 ## 📚 Resources
 
-- [Part 2 — On Your Own (PDF)](.github/Part-2.pdf) — the four Part 2 steps with screenshots
+- [Part 2 — On Your Own (PDF)](Part-2.pdf) — the four Part 2 steps with screenshots
 - [MDN — CSS grid layout](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Grids)
 - [MDN — Basic concepts of grid layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout)
 - [MDN — `grid-template-columns`](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns)
@@ -207,4 +207,4 @@ If something is not working, check these common issues first:
 
 ---
 
-The AI policy and submission instructions are in the [README](README.md).
+The AI policy and submission instructions are in the [README](../README.md).
