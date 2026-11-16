@@ -14,3 +14,45 @@ trim_trailing_whitespace = true
 # Trailing spaces are meaningful in Markdown (line breaks).
 [*.md]
 trim_trailing_whitespace = false
+
+[*.html]
+ij_html_text_wrap = off
+ij_html_attribute_wrap = off
+ij_html_keep_line_breaks = true
+ij_html_keep_line_breaks_in_text = true
+ij_html_do_not_indent_children_of_tags =
+
+[*.css]
+# One rule per block, one declaration per line: a { color: red; } gets expanded
+ij_css_keep_single_line_blocks = false
+ij_css_brace_placement = end_of_line
+ij_css_space_before_opening_brace = true
+ij_css_space_after_colon = true
+# Don't line values up in columns (reflows every line when one property changes)
+ij_css_value_alignment = do_not_align
+# Exactly one blank line between rules; collapse extra blank lines to one
+ij_css_blank_lines_between_blocks = 1
+ij_css_keep_blank_lines_in_code = 1
+# Leave hex color case alone, so #C8001E and #c8001e are never rewritten
+ij_css_hex_color_lower_case = false
+ij_css_hex_color_upper_case = false
+ij_css_hex_color_long_format = false
+ij_css_hex_color_short_format = false
+# Double quotes in url("…") and font names
+ij_css_use_double_quotes = true
+ij_css_enforce_quotes_on_format = true
+ij_css_keep_indents_on_empty_lines = false
+
+[*.js]
+ij_javascript_use_semicolon_after_statement = true
+ij_javascript_force_semicolon_style = true
+ij_javascript_use_double_quotes = true
+ij_javascript_force_quote_style = true
+ij_javascript_keep_blank_lines_in_code = 1
+ij_javascript_keep_line_breaks = true
+ij_javascript_wrap_comments = false
+# Don't add or remove trailing commas
+ij_javascript_enforce_trailing_comma = keep
+# { a: 1 } vs {a: 1}: pick one and pin it
+ij_javascript_spaces_within_object_literal_braces = true
+ij_javascript_keep_indents_on_empty_lines = false
